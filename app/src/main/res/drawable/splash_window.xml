@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  开屏窗口背景。
+
+  ⚠️ `<bitmap>` **不支持** `scaleType="centerCrop"`（那是 ImageView 的）。
+  它只认 `android:gravity`，合法值是 fill / center 之类的对齐标志。
+  竖版主视觉按 fill 铺满，比例可能略变，但这段只显示几百毫秒，
+  而且紧接着 Compose 的 SplashOverlay 会用 centerCrop 正确绘制，
+  所以这里的轻微拉伸不会被察觉到。
+-->
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/splash_brand"
+    android:gravity="fill"
+    android:filter="true" />

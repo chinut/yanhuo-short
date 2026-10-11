@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础主题。App 内容全部由 Compose 绘制，这里只负责窗口底色与状态栏。 -->
+    <style name="Theme.Yanhuo" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/ink_deep</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!--
+      开屏主题。
+
+      为什么用 windowBackground 而不是 Compose 里画：
+      Android 从冷启动到第一帧之间有一段空白（"白屏/黑屏"），
+      把开屏图放进 windowBackground，系统在进程起来之前就会画出来，
+      所以用户看到的是"开屏图 → 首页"而不是"黑屏 → 开屏图 → 首页"。
+      图本身是按竖屏 9:16 出的，用 centerCrop 铺满。
+    -->
+    <style name="Theme.Yanhuo.Splash" parent="Theme.Yanhuo">
+        <item name="android:windowBackground">@drawable/splash_window</item>
+    </style>
+</resources>

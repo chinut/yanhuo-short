@@ -1,0 +1,9 @@
+{
+  "versionCode": 4,
+  "versionName": "1.1.0",
+  "notes": "· 新增离线下载：整部或单集下载，断网也能看（底部导航「离线」）\n· 新增横版视频的横屏播放按钮\n· 新增启动时询问是否继续上次播放\n· 新增应用内自动升级\n· 修复：画面不再被裁切（横屏/竖屏都完整显示）\n· 界面：移除源名与「数据源」「诊断」设置项",
+  "urls": [
+    "https://github.com/chinut/yanhuo-short/releases/download/v1.1.0/yanhuo-short-v1.1.0.apk",
+    "https://gitee.com/chinut/yanhuo-short/releases/download/v1.1.0/yanhuo-short-v1.1.0.apk"
+  ]
+}

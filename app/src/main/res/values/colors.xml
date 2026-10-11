@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用主色板。名字保持中性，方便整体调色。 -->
+    <color name="ink">#0B0D1A</color>
+    <color name="ink_deep">#05060E</color>
+    <color name="brand">#FF6B2C</color>
+    <color name="brand_glow">#FF9A4D</color>
+    <color name="accent">#22D3EE</color>
+    <color name="magenta">#E879F9</color>
+</resources>

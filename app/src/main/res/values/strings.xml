@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">焰火短视频</string>
+    <string name="app_slogan">焰火随想 美好随现</string>
+    <string name="notification_channel_updates">连载更新</string>
+    <string name="notification_channel_updates_desc">订阅的短剧有新集时通知你</string>
+</resources>

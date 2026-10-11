@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--
+      部分短剧接口/图片 CDN 只有 HTTP，或证书链在老设备上不被信任。
+      这里显式放行明文流量，但**不做**全局放宽证书校验（那会引入中间人风险）。
+    -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

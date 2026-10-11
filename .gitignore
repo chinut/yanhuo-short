@@ -1,0 +1,27 @@
+# ===== 构建产物 =====
+build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+*.ap_
+*.dex
+local.properties
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+captures/
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 探测脚本的临时产物 =====
+tools/_*.txt
+tools/_*.html
+
+# ===== 日志 =====
+*.log
