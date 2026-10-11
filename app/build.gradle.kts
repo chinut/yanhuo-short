@@ -1,4 +1,4 @@
-plugins {
+﻿plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlin.serialization)
@@ -15,8 +15,8 @@ android {
         minSdk = 23
         targetSdk = 36
 
-        versionCode = 3
-        versionName = "1.0.2"
+        versionCode = 4
+        versionName = "1.1.0"
 
         // 只保留中文资源。
         // 用 androidResources.localeFilters 而不是已弃用的 resourceConfigurations
